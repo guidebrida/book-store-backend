@@ -18,10 +18,10 @@ public class Book {
     @Column(name = "id")
     private Integer id;
 
-    @Column(name = "nome", length = 100)
-    private String bookname;
+    @Column(name = "BOOK_NAME", length = 100)
+    private String bookName;
 
-    @Column(name = "book_author", length = 100)
+    @Column(name = "BOOK_AUTHOR", length = 100)
     private String bookAuthor;
 
     @Column(name = "release_date")
@@ -30,7 +30,11 @@ public class Book {
     @Column(name = "book_resume")
     private String bookResume;
 
-    @Column(name = "price")
+    @Column(name = "PRICE")
     private BigDecimal price;
+
+    @Column(name = "ISBN")
+    private String ISBN;
+
 
 }
