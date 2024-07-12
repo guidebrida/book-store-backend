@@ -1,4 +1,4 @@
-package com.example.book_sellls.entity;
+package com.example.book_sellls.domain.repository.entity;
 
 import jakarta.persistence.*;
 
